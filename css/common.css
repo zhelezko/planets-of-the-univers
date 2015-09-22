@@ -3,3 +3,9 @@ html {
 	margin: 0;
 font: normal 100%/1.4 Georgia, Serif ;
 }
+
+.current {
+	background-color: #000531;
+color: #fff;
+
+}
