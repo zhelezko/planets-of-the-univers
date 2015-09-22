@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>New</h1>
 <ul>
-	{% for news in site.posts %}
+	{% for news in site.categories.news %}
 			<li>
 				<a href="">{{news.title}}</a>
 				<p>{{news.meta}}</p>
