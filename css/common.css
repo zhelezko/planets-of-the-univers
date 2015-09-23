@@ -3,7 +3,15 @@ html {
 	margin: 0;
 font: normal 100%/1.4 Georgia, Serif ;
 }
-
+.masthead {
+	padding: 1em;
+	background: #000531 url("../img/nebula.jpg") no-repeat center center;
+	background-size: cover;
+	color: #fff;
+}
+.masthead-planets {
+	background-image: url("../img/nebula-2.jpg");
+}
 .current {
 	background-color: #000531;
 color: #fff;
