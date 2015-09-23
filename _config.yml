@@ -1,4 +1,4 @@
 markdown: redcarpet
-baseurl: /planets-of-the-univers
+baseurl: /planets-of-the-univers/
 exclude: ['README.md'] # Через запятую исключает каталоги/файлы из обработки
 permalink: pretty
