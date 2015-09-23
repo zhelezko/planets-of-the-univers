@@ -6,10 +6,10 @@ layout: default
 
 	<h2>Types of Planets</h2>
 	<ol>
-		{% for planets in site.categories.planet-type %}
+		{% for planet in site.categories.planet-type %}
 		<li>
-			<a href="">{{planets.title}}</a>
-			{{planets.content}}
+			<a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a>
+			{{planet.content}}
 		</li>
 		{% endfor %}
 	</ol>
